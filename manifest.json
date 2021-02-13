@@ -1,0 +1,15 @@
+{
+	"name": "pixiv-skip-redirect",
+	"version": "1.0",
+	"description": "skip 'www.pixiv.net/jump.php?**' page",
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": true
+	},
+	"permissions": [
+		"webRequest",
+		"webRequestBlocking",
+		"*://www.pixiv.net/jump.php?*"
+	],
+	"manifest_version": 2
+}
